@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import AboutMe from './containers/AboutMe'
+import Home from './containers/Home'
+import Portfolio from './containers/Portfolio'
+import EstiloGlobal from './styles'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <EstiloGlobal />
+      <Home />
+      <Portfolio />
+      <AboutMe />
+      <footer>
+        <div>
+          <p>2023 &copy; Carolina Mattos - Todos os direitos reservados</p>
+        </div>
+      </footer>
+    </>
+  )
 }
 
-export default App;
+export default App
