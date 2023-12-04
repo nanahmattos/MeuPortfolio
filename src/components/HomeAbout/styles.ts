@@ -21,7 +21,7 @@ export const HomeAbout__text = styled.p`
 `
 export const HomeAbout__icons = styled.ul`
   display: inline-flex;
-  margin-bottom: 95px;
+  margin-bottom: 50px;
   li {
     margin-right: 10px;
   }

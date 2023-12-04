@@ -72,8 +72,7 @@ export const Experiencia__title = styled.h3`
 
 const TimeLine__Content = css`
   display: flex;
-  padding: 0 130px;
-
+  justify-content: center;
   @media (max-width: 768px) {
     padding: 0 50px;
     align-items: center;
@@ -186,5 +185,9 @@ export const Button = styled.section`
     font-size: 25px;
     font-weight: bold;
     color: #000;
+
+    a {
+      text-decoration: none;
+    }
   }
 `

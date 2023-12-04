@@ -1,5 +1,5 @@
 import * as S from './styles'
-import Photoshop from '../../assets/icons/photoshop.png'
+import Photoshop from '../../assets/icons/photoshop.svg'
 import Illustrator from '../../assets/icons/illustrator.svg'
 import PostIg from '../../assets/socialmedia/paradoxoDoReels.png'
 import FeedPhone from '../../assets/socialmedia/feed_iphone.png'
@@ -9,7 +9,7 @@ const SocialMedia = () => {
   return (
     <section>
       <S.SocialMedia__content>
-        <S.SocialMedia__numberWork>1</S.SocialMedia__numberWork>
+        <S.SocialMedia__numberWork id="Work_1">1</S.SocialMedia__numberWork>
         <S.SocialMedia__item>
           <h2>Vamo de Publi</h2>
           <h3>Social Media</h3>
