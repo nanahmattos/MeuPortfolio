@@ -8,16 +8,8 @@ const EstiloGlobal = createGlobalStyle`
     font-family: 'Urbanist', sans-serif;
     list-style: none;
     overflow-x: hidden;
-
+    text-decoration: none;
 }
 
-footer {
-  background-color: #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5vh;
-  color: #fff;
-}
 `
 export default EstiloGlobal

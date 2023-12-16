@@ -1,47 +1,60 @@
 import Linkedin from '../../assets/icons/Linkedin.svg'
 import Github from '../../assets/icons/Github.svg'
 import Behance from '../../assets/icons/Behance.svg'
-import Gmail from '../../assets/icons/Gmail.svg'
-import Arte from '../../assets/mainarte.svg'
+// import Gmail from '../../assets/icons/Gmail.svg'
 import * as S from './styles'
-
+import GifHome from '../../assets/gif_home.gif'
 const About = () => {
   return (
     <>
-      <S.HomeAbout>
+      <S.HomeAbout id="home">
         <div>
           <S.HomeAbout__title>Carolina Mattos</S.HomeAbout__title>
           <S.HomeAbout__text>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
-            tenetur? Voluptatem, doloribus, accusamus doloremque exercitationem
-            unde totam, incidunt similique vitae suscipit quisquam rem? Adipisci
-            ipsam facere aliquid unde, perspiciatis a!
+            tenetur? Voluptatem, doloribus, accusamu.
           </S.HomeAbout__text>
           <S.HomeAbout__icons>
             <li>
-              <a href="#">
-                <img src={Linkedin} alt="linkedin" />
+              <a
+                href="https://www.linkedin.com/in/carolinamattos98/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Linkedin} alt="icone do linkedin" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src={Github} alt="linkedin" />
+              <a
+                href="https://github.com/nanahmattos"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Github} alt="icone do github" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src={Behance} alt="linkedin" />
+              <a
+                href="https://www.behance.net/nanahmattos"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Behance} alt="icone do behance" />
               </a>
             </li>
-            <li>
-              <a href="mailto:mattos.carolina98@gmail.com">
-                <img src={Gmail} alt="linkedin" />
+            {/* <li>
+              <a
+                href="mailto:mattos.carolina98@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Gmail} alt="icone do gmail" />
               </a>
-            </li>
+            </li> */}
           </S.HomeAbout__icons>
         </div>
         <S.HomeAbout_Element>
-          <img src={Arte} alt="Icone Artistico" />
+          <img src={GifHome} alt="Icone Artistico" />
         </S.HomeAbout_Element>
       </S.HomeAbout>
     </>

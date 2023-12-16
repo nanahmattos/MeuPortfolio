@@ -1,13 +1,11 @@
 import Header from '../../components/Header'
-import Home from '../../containers/Home'
-import Portfolio from '../../containers/Portfolio'
+import PortfolioWeb from '../../containers/PortfolioWeb'
 
 const Works = () => {
   return (
     <>
       <Header />
-      <Home />
-      <Portfolio />
+      <PortfolioWeb />
     </>
   )
 }

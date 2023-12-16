@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Works from './pages/Works'
 import Sobre from './pages/Sobre'
 import EstiloGlobal from './styles'
+import Home from './containers/Home'
+import Footer from './containers/Footer'
 
 const rotas = createBrowserRouter([
   {
@@ -19,15 +21,9 @@ function App() {
   return (
     <>
       <EstiloGlobal />
-      {/* <Home /> */}
-      <div>
-        <RouterProvider router={rotas} />
-      </div>
-      <footer>
-        <div>
-          <p>2023 &copy; Carolina Mattos - Todos os direitos reservados</p>
-        </div>
-      </footer>
+      <Home />
+      <RouterProvider router={rotas} />
+      <Footer />
     </>
   )
 }

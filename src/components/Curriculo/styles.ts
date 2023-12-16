@@ -12,12 +12,7 @@ export const Introducao = styled.section`
     grid-template-columns: 1fr;
     justify-content: center;
     padding: 50px;
-  }
-
-  img {
-    width: 320px;
-    height: 320px;
-    margin-top: 30px;
+    text-align: center;
   }
 
   h4 {
@@ -35,6 +30,17 @@ export const Introducao = styled.section`
     font-size: 20px;
   }
 `
+export const ImageProfile = styled.div`
+  img {
+    width: 320px;
+    height: 320px;
+    margin-top: 30px;
+  }
+`
+
+export const Curriculo__text = styled.p`
+  font-size: 18px;
+`
 //--------------TIME LINE
 export const TimeLine = styled.section`
   background-color: ${variaveis.verde};
@@ -44,7 +50,6 @@ export const TimeLine = styled.section`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 `
 const Title = css`
@@ -53,6 +58,10 @@ const Title = css`
   padding: 0 130px;
   margin-top: 29px;
   margin-bottom: 20px;
+  @media (max-width: 768px) {
+    padding: 0;
+    text-align: center;
+  }
 `
 export const Educacao__title = styled.h3`
   ${Title}
@@ -154,40 +163,19 @@ export const Skills__item = styled.div`
   }
 
   h4 {
-    font-family: Waiting for the Sunrise;
+    font-family: ${variaveis.segundaFonte};
     font-size: 25px;
     margin-bottom: 10px;
   }
-
-  li {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 105px;
-    margin-bottom: 15px;
-
-    @media (max-width: 768px) {
-      margin-right: 0;
-    }
-  }
 `
-export const Button = styled.section`
+export const Skills__lista = styled.li`
   display: flex;
-  justify-content: center;
-  padding: 94px 0;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-bottom: 15px;
+  align-items: center;
 
-  button {
-    background-color: ${variaveis.verde};
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    width: 321px;
-    height: 72px;
-    font-size: 25px;
-    font-weight: bold;
-    color: #000;
-
-    a {
-      text-decoration: none;
-    }
+  @media (max-width: 768px) {
+    margin-right: 0;
   }
 `
