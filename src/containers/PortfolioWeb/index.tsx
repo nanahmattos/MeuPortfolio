@@ -4,7 +4,7 @@ import BarbieImage from '../../assets/projetos/barbie_vercel.png'
 import Legenda from '../../components/Legends'
 import DisneyImage from '../../assets/projetos/clonedisney.png'
 import RaymanImage from '../../assets/projetos/raymanLegends.png'
-
+import MyportfolioImage from '../../assets/projetos/meuportfolio.png'
 const PortfolioWeb = () => {
   return (
     <S.PortfolioWeb__Container id="portfolio">
@@ -64,7 +64,7 @@ const PortfolioWeb = () => {
       </S.PortfolioWeb__SectionDir>
       <S.PortfolioWeb__SectionEsq>
         <Projeto
-          imagemSrc={BarbieImage}
+          imagemSrc={MyportfolioImage}
           linkVercel="https://meu-portfolio-nu-nine.vercel.app/"
           linkGit="https://github.com/nanahmattos/MeuPortfolio.git"
         />
