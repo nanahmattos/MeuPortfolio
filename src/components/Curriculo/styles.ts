@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import * as K from '../../styles/keyframes'
 import variaveis from '../../styles/variaveis'
 
 export const Introducao = styled.section`
@@ -152,7 +153,14 @@ export const Skills = styled.section`
 `
 export const Skills__title = styled.h3`
   font-size: 50px;
-  margin-top: 42px;
+  margin: 42px 0;
+  background: linear-gradient(180deg, #48d97a 30%, rgba(0, 0, 0, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `
 export const Skills__item = styled.div`
   display: grid;
@@ -160,6 +168,9 @@ export const Skills__item = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
+    h4 {
+      text-align: center;
+    }
   }
 
   h4 {
@@ -174,7 +185,9 @@ export const Skills__lista = styled.li`
   margin-right: 80px;
   margin-bottom: 15px;
   align-items: center;
-
+  svg {
+    animation: ${K.fadeIn} 2s ease-in-out;
+  }
   @media (max-width: 768px) {
     margin-right: 0;
   }

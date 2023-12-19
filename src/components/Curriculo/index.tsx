@@ -6,17 +6,17 @@ import Element from '../../assets/elements/element_2.png'
 const Curriculo = () => {
   return (
     <>
-      <S.Introducao>
+      <S.Introducao id="curriculo">
         <S.ImageProfile>
           <img src={ImageProfile} alt="Imagem Perfil Carolina Mattos" />
         </S.ImageProfile>
         <div>
-          <h4>Iam just girl from</h4>
+          <h4>Olá, sou Carolina,</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            laudantium magnam deserunt odit quidem voluptatem natus deleniti
-            quisquam, in, asperiores itaque facere expedita aperiam praesentium
-            at et totam voluptatum quia.
+            profissional apaixonada por design e criatividade. Minha jornada
+            começou em Design de Moda, e ao longo do tempo, explorei áreas como
+            Social Media e Direção de Arte. Hoje, me realizo como{' '}
+            <b>Desenvolvedora Front-end</b> e futura Designer UX/UI.
           </p>
         </div>
       </S.Introducao>

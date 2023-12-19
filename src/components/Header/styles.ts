@@ -1,9 +1,11 @@
+import { animated } from 'react-spring'
 import styled from 'styled-components'
+import * as K from '../../styles/keyframes'
 import variaveis from '../../styles/variaveis'
 type WorksLinksProps = {
   open: boolean
 }
-export const Header = styled.header`
+export const Header = styled(animated.header)`
   display: flex;
   gap: 60px;
   align-items: center;
@@ -48,14 +50,14 @@ export const WorksLinks = styled.div<WorksLinksProps>`
     text-align: center;
   }
 `
-export const Header_Title = styled.h1`
+export const Header_Title = styled(animated.h1)`
   font-size: 25px;
   font-weight: bold;
   margin-right: 16px;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-
+  animation: ${K.fadeIn} 2s ease-in-out;
   &:hover {
     color: ${variaveis.verde};
   }

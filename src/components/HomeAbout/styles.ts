@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import variaveis from '../../styles/variaveis'
 
 export const HomeAbout = styled.section`
   display: grid;
@@ -15,16 +16,17 @@ export const HomeAbout = styled.section`
 export const HomeAbout__title = styled.h1`
   color: #fff;
   font-size: 65px;
-  margin-bottom: 14px;
   @media (max-width: 768px) {
     font-size: 35px;
   }
 `
 export const HomeAbout__text = styled.p`
   color: #fff;
-  font-family: 'Waiting for the Sunrise', cursive;
-  font-size: 20px;
-  margin-bottom: 14px;
+  // font-family: 'Waiting for the Sunrise', cursive;
+  // font-weight: bold;
+  font-size: 25px;
+  color: ${variaveis.verde};
+  margin-bottom: 10px;
 `
 export const HomeAbout__icons = styled.ul`
   display: flex;

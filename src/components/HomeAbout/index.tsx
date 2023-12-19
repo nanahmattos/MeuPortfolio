@@ -1,18 +1,16 @@
 import Linkedin from '../../assets/icons/Linkedin.svg'
 import Github from '../../assets/icons/Github.svg'
 import Behance from '../../assets/icons/Behance.svg'
-// import Gmail from '../../assets/icons/Gmail.svg'
 import * as S from './styles'
 import GifHome from '../../assets/gif_home.gif'
 const About = () => {
   return (
     <>
-      <S.HomeAbout id="home">
+      <S.HomeAbout>
         <div>
           <S.HomeAbout__title>Carolina Mattos</S.HomeAbout__title>
           <S.HomeAbout__text>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
-            tenetur? Voluptatem, doloribus, accusamu.
+            Desenvolvedora Front-end • Designer
           </S.HomeAbout__text>
           <S.HomeAbout__icons>
             <li>
@@ -42,15 +40,6 @@ const About = () => {
                 <img src={Behance} alt="icone do behance" />
               </a>
             </li>
-            {/* <li>
-              <a
-                href="mailto:mattos.carolina98@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={Gmail} alt="icone do gmail" />
-              </a>
-            </li> */}
           </S.HomeAbout__icons>
         </div>
         <S.HomeAbout_Element>

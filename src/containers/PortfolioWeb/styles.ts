@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import { animated } from 'react-spring'
 import variaveis from '../../styles/variaveis'
 import Vector from '../../assets/background/VectorCabecalho.svg'
 
@@ -22,7 +23,7 @@ export const PortfolioWeb__Titulo = styled.h2`
     font-family: Waiting for the Sunrise;
     font-size: 20px;
     margin-top: 10px;
-    font-weight: normal;
+    // font-weight: bold;
   }
 `
 export const GridSection = css`
@@ -45,10 +46,12 @@ export const Portfolio__SectionEsq_Mobile = styled.div`
     grid-row: 1;
   }
 `
-export const PortfolioWeb__SectionDir = styled.section`
+export const PortfolioWeb__SectionDir = styled(animated.section)`
   ${GridSection}
+  transform: translate(0, 0);
 `
-export const PortfolioWeb__SectionEsq = styled.section`
+export const PortfolioWeb__SectionEsq = styled(animated.section)`
   ${GridSection}
   grid-template-columns: 60% 40%;
+  transform: translate(0, 0);
 `
