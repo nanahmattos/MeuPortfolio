@@ -20,8 +20,8 @@ const PortfolioWeb = () => {
           <Legenda
             numberWork="1"
             titulo="Netflix Barbie-verso"
-            subTitulo="HTML • CSS • SASS • JavaSript"
-            texto="Neste projeto, desenvolvi um clone da página inicial de compra da Netflix, incorporando o encantador tema da Barbie. A landing page foi criada por meio de estudos aprofundados em SASS, JavaScript, HTML e CSS, destacando também a utilização eficaz das ferramentas do DevTools."
+            subTitulo="HTML • CSS • SASS • JavaScript"
+            texto="Neste projeto, desenvolvi um clone da página inicial de compra da Netflix, incorporando o tema da Barbie. A landing page foi criada por meio de estudos em SASS, JavaScript, HTML e CSS, destacando também a utilização eficaz das ferramentas do DevTools."
           />
         </>
         <>
@@ -42,7 +42,7 @@ const PortfolioWeb = () => {
           <Legenda
             numberWork="2"
             titulo="Clone Disney+"
-            subTitulo="HTML • CSS • SASS • JavaSript"
+            subTitulo="HTML • CSS • SASS • JavaScript"
             texto="Realizei o clone da página inicial de compra da DisneyPlus, estabelecendo-a como uma referência essencial para o projeto Netflix Barbie-verso. Assim como no primeiro projeto, empreguei SASS, JavaScript, HTML e boas práticas de CSS para garantir uma experiência de usuário consistente."
           />
         </S.Portfolio__SectionEsq_Mobile>
@@ -53,7 +53,7 @@ const PortfolioWeb = () => {
             numberWork="3"
             titulo="Rayman Legends"
             subTitulo="Bootstrap"
-            texto="Para esta landing page dedicada ao jogo Rayman Legends, concentrei-me em estudos avançados de bootstrap e responsividade. O resultado é uma interface adaptativa e eficiente, destacando a capacidade de aplicar conceitos robustos em design web."
+            texto="Para esta landing page dedicada ao jogo Rayman Legends, concentrei-me em estudos do bootstrap e responsividade. O resultado é uma interface adaptativa e eficiente."
           />
         </>
         <Projeto
@@ -73,7 +73,7 @@ const PortfolioWeb = () => {
             numberWork="4"
             titulo="MyPortfolio"
             subTitulo="React • TypeScript"
-            texto="Para meu portfólio utilizei o framework React com TypeScript, React Router, Hooks e Styled Components para criar uma experiência de usuário fluida e responsiva. Além disso, implementei animações com a biblioteca react-spring, demonstrando minha habilidade em criar interfaces interativas e visualmente atraentes."
+            texto="Para meu portfólio utilizei o framework React com TypeScript, React Router, Hooks e Styled Components para criar uma experiência de usuário fluida e responsiva. Além disso, implementei animações com a biblioteca react-spring."
           />
         </S.Portfolio__SectionEsq_Mobile>
       </S.PortfolioWeb__SectionEsq>

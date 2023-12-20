@@ -33,6 +33,7 @@ export const ProjetoConteudo = styled.div`
 export const Projeto__frase = styled.p`
   color: #fff;
   margin-bottom: 10px;
+  text-align: center;
 `
 export const BotaoProjeto = styled.button`
   ${SocialButton}

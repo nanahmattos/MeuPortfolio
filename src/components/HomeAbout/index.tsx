@@ -10,7 +10,7 @@ const About = () => {
         <div>
           <S.HomeAbout__title>Carolina Mattos</S.HomeAbout__title>
           <S.HomeAbout__text>
-            Desenvolvedora Front-end • Designer
+            Desenvolvedora Front-end • Designer •
           </S.HomeAbout__text>
           <S.HomeAbout__icons>
             <li>

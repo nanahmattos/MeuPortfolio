@@ -11,12 +11,13 @@ const Curriculo = () => {
           <img src={ImageProfile} alt="Imagem Perfil Carolina Mattos" />
         </S.ImageProfile>
         <div>
-          <h4>Olá, sou Carolina,</h4>
+          <h4>Olá ! sou Carolina,</h4>
           <p>
             profissional apaixonada por design e criatividade. Minha jornada
             começou em Design de Moda, e ao longo do tempo, explorei áreas como
             Social Media e Direção de Arte. Hoje, me realizo como{' '}
-            <b>Desenvolvedora Front-end</b> e futura Designer UX/UI.
+            <S.CorDestaque>Desenvolvedora Front-end</S.CorDestaque> e futura
+            Designer UX/UI.
           </p>
         </div>
       </S.Introducao>

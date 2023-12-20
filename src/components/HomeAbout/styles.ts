@@ -18,6 +18,7 @@ export const HomeAbout__title = styled.h1`
   font-size: 65px;
   @media (max-width: 768px) {
     font-size: 35px;
+    margin-top: 25px;
   }
 `
 export const HomeAbout__text = styled.p`

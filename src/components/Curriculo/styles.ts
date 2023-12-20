@@ -33,10 +33,14 @@ export const Introducao = styled.section`
 `
 export const ImageProfile = styled.div`
   img {
-    width: 320px;
+    width: auto;
     height: 320px;
+    object-fit: none;
     margin-top: 30px;
   }
+`
+export const CorDestaque = styled.b`
+  color: ${variaveis.verde};
 `
 
 export const Curriculo__text = styled.p`
