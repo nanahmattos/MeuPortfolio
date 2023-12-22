@@ -99,7 +99,7 @@ const TimeLine__Content = css`
 
   ul {
     h5 {
-      color: #000;
+      color: ${variaveis.preto};
       font-weight: normal;
       font-size: 18px;
     }
@@ -158,7 +158,11 @@ export const Skills = styled.section`
 export const Skills__title = styled.h3`
   font-size: 50px;
   margin: 42px 0;
-  background: linear-gradient(180deg, #48d97a 30%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    ${variaveis.verde} 30%,
+    rgba(0, 0, 0, 0) 100%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { SocialButton } from '../../styles/mixins'
+import variaveis from '../../styles/variaveis'
 
 export const Projeto__item = styled.div`
   position: relative;
@@ -31,14 +32,14 @@ export const ProjetoConteudo = styled.div`
   }
 `
 export const Projeto__frase = styled.p`
-  color: #fff;
+  color: ${variaveis.branco};
   margin-bottom: 10px;
   text-align: center;
 `
 export const BotaoProjeto = styled.button`
   ${SocialButton}
-  background-color: #fff;
-  color: #000;
+  background-color: ${variaveis.branco};
+  color: ${variaveis.preto};
   margin-bottom: 10px;
 `
 export const BotaoCodigo = styled.button`

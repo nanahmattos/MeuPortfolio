@@ -15,7 +15,7 @@ export const PortfolioWeb__Titulo = styled.h2`
   justify-content: center;
   flex-direction: column;
   margin: 100px 70px 50px;
-  color: #000;
+  color: ${variaveis.preto};
   text-align: center;
   font-size: 30px;
 

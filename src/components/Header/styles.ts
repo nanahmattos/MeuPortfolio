@@ -12,11 +12,15 @@ export const Header = styled(animated.header)`
   position: fixed;
   top: 0;
   padding: 20px 130px;
-  background: linear-gradient(180deg, #000 100%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    ${variaveis.preto} 100%,
+    rgba(0, 0, 0, 0) 100%
+  );
   width: 100%;
   z-index: 1;
   @media (max-width: 768px) {
-    background-color: #000;
+    background-color: ${variaveis.preto};
     justify-content: center;
     flex-direction: column;
     gap: 10px;
@@ -54,7 +58,7 @@ export const Header_Title = styled(animated.h1)`
   font-size: 25px;
   font-weight: bold;
   margin-right: 16px;
-  color: #fff;
+  color: ${variaveis.branco};
   text-decoration: none;
   cursor: pointer;
   animation: ${K.fadeIn} 2s ease-in-out;
@@ -70,7 +74,7 @@ export const Header_Title = styled(animated.h1)`
 export const MenuIcon = styled.div`
   cursor: pointer;
   display: none;
-  color: #fff;
+  color: ${variaveis.branco};
   font-size: 25px;
   @media (max-width: 768px) {
     display: block;

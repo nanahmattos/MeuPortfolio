@@ -1,4 +1,5 @@
 import { css } from 'styled-components'
+import variaveis from './variaveis'
 
 export const SocialButton = css`
   display: flex;
@@ -9,17 +10,17 @@ export const SocialButton = css`
   height: 46px;
   border-radius: 20px;
   border: none;
-  background: #000;
+  background: ${variaveis.preto};
   font-weight: bold;
   font-size: 20px;
   overflow: hidden;
-  color: #fff;
+  color: ${variaveis.branco};
   cursor: pointer;
 
   a {
     text-decoration: none;
     line-height: normal;
-    color: #fff;
+    color: ${variaveis.branco};
   }
   img {
     max-width: 28px;

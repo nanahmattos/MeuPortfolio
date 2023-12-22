@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import variaveis from '../../styles/variaveis'
 
 export const Container = styled.div`
-  background-color: #000;
+  background-color: ${variaveis.preto};
   padding: 110px 110px 20px 110px;
 
   @media (max-width: 768px) {

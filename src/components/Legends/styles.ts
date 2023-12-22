@@ -40,19 +40,19 @@ export const Legends__text = styled.div`
   position: relative;
   margin-left: 90px;
   h2 {
-    color: #000;
+    color: ${variaveis.preto};
     font-size: 30px;
     font-weight: bold;
   }
 
   h3 {
-    color: #000;
+    color: ${variaveis.preto};
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: normal;
   }
   p {
-    color: #000;
+    color: ${variaveis.preto};
     width: 300px;
     font-family: Waiting for the Sunrise;
     font-size: 20px;

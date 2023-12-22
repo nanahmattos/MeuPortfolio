@@ -14,7 +14,7 @@ export const HomeAbout = styled.section`
   }
 `
 export const HomeAbout__title = styled.h1`
-  color: #fff;
+  color: ${variaveis.branco};
   font-size: 65px;
   @media (max-width: 768px) {
     font-size: 35px;
@@ -22,9 +22,7 @@ export const HomeAbout__title = styled.h1`
   }
 `
 export const HomeAbout__text = styled.p`
-  color: #fff;
-  // font-family: 'Waiting for the Sunrise', cursive;
-  // font-weight: bold;
+  color: ${variaveis.branco};
   font-size: 25px;
   color: ${variaveis.verde};
   margin-bottom: 10px;

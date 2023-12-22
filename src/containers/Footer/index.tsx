@@ -5,7 +5,7 @@ const Footer = () => {
     <S.Footer>
       <S.Contato>
         <S.Contato_title>Contato</S.Contato_title>
-        <p>mattos.carolina@gmail.com</p>
+        <p>mattos.carolina98@gmail.com</p>
       </S.Contato>
       <p>2023 &copy; Carolina Mattos - Todos os direitos reservados</p>
     </S.Footer>

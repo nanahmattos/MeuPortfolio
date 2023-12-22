@@ -11,8 +11,8 @@ const PortfolioWeb = () => {
       <S.PortfolioWeb__Titulo>
         <h2>Projetos</h2>
         <p>
-          Explore alguns dos meus projetos de estudo como desenvolvedora
-          front-end.
+          {/* Explore alguns dos meus projetos de estudo como desenvolvedora
+          front-end. */}
         </p>
       </S.PortfolioWeb__Titulo>
       <S.PortfolioWeb__SectionDir>
