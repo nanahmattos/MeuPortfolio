@@ -17,17 +17,16 @@ export const Introducao = styled.section`
   }
 
   h4 {
-    font-size: 35px;
-    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 25px;
+    // font-family: 'Waiting for the Sunrise', cursive;
     margin-top: 106px;
-    font-weight: normal;
     @media (max-width: 768px) {
       margin-top: 0;
     }
   }
 
   p {
-    font-family: 'Waiting for the Sunrise', cursive;
+    // font-family: 'Waiting for the Sunrise', cursive;
     font-size: 20px;
   }
 `

@@ -54,7 +54,7 @@ export const Legends__text = styled.div`
   p {
     color: ${variaveis.preto};
     width: 300px;
-    font-family: Waiting for the Sunrise;
+    // font-family: Waiting for the Sunrise;
     font-size: 20px;
   }
   @media (max-width: 768px) {
