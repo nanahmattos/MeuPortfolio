@@ -1,5 +1,6 @@
 import * as S from './styles'
 import Projeto from '../../components/Projeto'
+import efoodImage from '../../assets/projetos/efood.png'
 import BarbieImage from '../../assets/projetos/barbie_vercel.png'
 import Legenda from '../../components/Legends'
 import DisneyImage from '../../assets/projetos/clonedisney.png'
@@ -19,16 +20,16 @@ const PortfolioWeb = () => {
         <>
           <Legenda
             numberWork="1"
-            titulo="Netflix Barbie-verso"
-            subTitulo="HTML • CSS • SASS • JavaScript"
-            texto="Neste projeto, desenvolvi um clone da página inicial de compra da Netflix, incorporando o tema da Barbie. A landing page foi criada por meio de estudos em SASS, JavaScript, HTML e CSS, destacando também a utilização eficaz das ferramentas do DevTools."
+            titulo="E-food"
+            subTitulo="React • TS • AJAX • Redux"
+            texto="Nesse projeto pessoal desenvolvi um site de compras utilizando React, TypeScript, React Router, Redux para dinâmica, Styled Components para estilização e AJAX para a integração da API."
           />
         </>
         <>
           <Projeto
-            imagemSrc={BarbieImage}
-            linkVercel="https://netflix-barbie.vercel.app/"
-            linkGit="https://github.com/nanahmattos/ebac_task_netflix_barbie.git"
+            imagemSrc={efoodImage}
+            linkVercel="https://projetct6-e-food.vercel.app/"
+            linkGit="https://github.com/nanahmattos/projetct6_eFood"
           />
         </>
       </S.PortfolioWeb__SectionDir>
@@ -77,6 +78,23 @@ const PortfolioWeb = () => {
           />
         </S.Portfolio__SectionEsq_Mobile>
       </S.PortfolioWeb__SectionEsq>
+      <S.PortfolioWeb__SectionDir>
+        <>
+          <Legenda
+            numberWork="5"
+            titulo="Netflix Barbie-verso"
+            subTitulo="HTML • CSS • SASS • JavaScript"
+            texto="Neste projeto, desenvolvi um clone da página inicial de compra da Netflix, incorporando o tema da Barbie. A landing page foi criada por meio de estudos em SASS, JavaScript, HTML e CSS, destacando também a utilização eficaz das ferramentas do DevTools."
+          />
+        </>
+        <>
+          <Projeto
+            imagemSrc={BarbieImage}
+            linkVercel="https://netflix-barbie.vercel.app/"
+            linkGit="https://github.com/nanahmattos/ebac_task_netflix_barbie.git"
+          />
+        </>
+      </S.PortfolioWeb__SectionDir>
     </S.PortfolioWeb__Container>
   )
 }
