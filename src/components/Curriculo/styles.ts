@@ -7,14 +7,12 @@ export const Introducao = styled.section`
   grid-template-columns: 1fr 1fr;
   width: 100%;
   flex-wrap: wrap;
-
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     justify-content: center;
     padding: 50px;
     text-align: center;
   }
-
   h4 {
     font-size: 25px;
     // font-family: 'Waiting for the Sunrise', cursive;
@@ -23,7 +21,6 @@ export const Introducao = styled.section`
       margin-top: 0;
     }
   }
-
   p {
     // font-family: 'Waiting for the Sunrise', cursive;
     font-size: 20px;
@@ -40,7 +37,6 @@ export const ImageProfile = styled.div`
 export const CorDestaque = styled.b`
   color: ${colors.green};
 `
-
 export const Curriculo__text = styled.p`
   font-size: 18px;
 `
@@ -81,7 +77,6 @@ export const Experiencia__title = styled.h3`
     grid-column: 1;
   }
 `
-
 const TimeLine__Content = css`
   display: flex;
   justify-content: center;
@@ -121,7 +116,6 @@ export const Educacao = styled.div`
   grid-row: 2;
   grid-column: 1;
 `
-
 export const Experiencia = styled.div`
   ${TimeLine__Content}
   grid-row: 2;
@@ -132,7 +126,6 @@ export const Experiencia = styled.div`
     grid-column: 1;
   }
 `
-
 export const TimeLine__element = styled.div`
   display: flex;
   align-items: center;
@@ -176,7 +169,6 @@ export const Skills__item = styled.div`
       text-align: center;
     }
   }
-
   h4 {
     font-family: 'Waiting for the Sunrise', cursive;
     font-size: 25px;

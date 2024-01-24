@@ -358,8 +358,8 @@ const Curriculo = () => {
                 <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="52.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="64.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="##48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="##48D97A" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
@@ -397,10 +397,10 @@ const Curriculo = () => {
                 fill="none"
               >
                 <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="16.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="28.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="40.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="52.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="64.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />

@@ -18,7 +18,6 @@ export const Button = styled(Link)<ButtonProps>`
   cursor: pointer;
   gap: 8px;
   margin-bottom: 5px;
-
   img {
     max-width: 28px;
   }

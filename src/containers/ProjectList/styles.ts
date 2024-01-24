@@ -5,7 +5,7 @@ import { colors } from '../../styles/styles'
 export const Container = styled.div`
   background-image: url(${vector});
   background-color: ${colors.greenlight};
-  width: 100vw;
+  // width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   > h2 {

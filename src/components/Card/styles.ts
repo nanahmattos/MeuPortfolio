@@ -16,7 +16,6 @@ export const Container = styled.div`
 `
 export const LegendItem = styled.div`
   position: relative;
-
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -28,14 +27,12 @@ export const LegendItem = styled.div`
     top: 18px;
     left: 18%;
     padding: 25px;
-
     @media (max-width: 768px) {
       position: relative;
       padding: 0 32px 32px;
       left: 0;
       text-align: center;
     }
-
     h2 {
       font-size: 30px;
       font-weight: bold;

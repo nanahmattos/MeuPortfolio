@@ -10,7 +10,7 @@ import myportfolioImage from '../../assets/projetos/meuportfolio.png'
 const projetos: ProjectProps[] = [
   {
     title: 'E-Food',
-    subTitle: 'React • TS • AJAX • Redux',
+    subTitle: 'React • TS • AJAX/API • Redux',
     text: 'Nesse projeto pessoal desenvolvi um site de compras utilizando React, TypeScript, React Router, Redux para dinâmica, Styled Components para estilização e AJAX para a integração da API.',
     image: `${efoodImage}`,
     number: '1',
@@ -59,7 +59,7 @@ const projetos: ProjectProps[] = [
     id: 5
   }
 ]
-const Works = () => {
+const Projects = () => {
   return (
     <>
       <Header />
@@ -67,4 +67,4 @@ const Works = () => {
     </>
   )
 }
-export default Works
+export default Projects

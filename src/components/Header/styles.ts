@@ -12,13 +12,14 @@ export const Header = styled(animated.header)`
   position: fixed;
   top: 0;
   padding: 20px 130px;
+  z-index: 2;
+  width: 100%;
   background: linear-gradient(
     180deg,
     ${colors.black} 100%,
     rgba(0, 0, 0, 0) 100%
   );
-  width: 100%;
-  z-index: 1;
+
   @media (max-width: 768px) {
     background-color: ${colors.black};
     justify-content: center;
