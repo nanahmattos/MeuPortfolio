@@ -1,12 +1,13 @@
-import * as S from './styles'
 import ImageProfile from '../../assets/aboutme/nanahmattos.png'
 import Timeline from '../../assets/aboutme/timeline.svg'
 import Element from '../../assets/elements/element_2.png'
 
+import * as S from './styles'
+
 const Curriculo = () => {
   return (
     <>
-      <S.Introducao id="curriculo">
+      <S.Introducao className="container" id="curriculo">
         <S.ImageProfile>
           <img src={ImageProfile} alt="Imagem Perfil Carolina Mattos" />
         </S.ImageProfile>
@@ -81,7 +82,7 @@ const Curriculo = () => {
           <img src={Element} alt="Elemento 1/2 circulo" />
         </S.TimeLine__element>
       </S.TimeLine>
-      <S.Skills>
+      <S.Skills className="container">
         <S.Skills__title>Skills</S.Skills__title>
         <S.Skills__item>
           <ul>

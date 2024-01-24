@@ -1,7 +1,7 @@
 import { animated } from 'react-spring'
 import styled from 'styled-components'
 import * as K from '../../styles/keyframes'
-import variaveis from '../../styles/variaveis'
+import { colors } from '../../styles/styles'
 type WorksLinksProps = {
   open: boolean
 }
@@ -14,13 +14,13 @@ export const Header = styled(animated.header)`
   padding: 20px 130px;
   background: linear-gradient(
     180deg,
-    ${variaveis.preto} 100%,
+    ${colors.black} 100%,
     rgba(0, 0, 0, 0) 100%
   );
   width: 100%;
   z-index: 1;
   @media (max-width: 768px) {
-    background-color: ${variaveis.preto};
+    background-color: ${colors.black};
     justify-content: center;
     flex-direction: column;
     gap: 10px;
@@ -58,12 +58,12 @@ export const Header_Title = styled(animated.h1)`
   font-size: 25px;
   font-weight: bold;
   margin-right: 16px;
-  color: ${variaveis.branco};
+  color: ${colors.white};
   text-decoration: none;
   cursor: pointer;
   animation: ${K.fadeIn} 2s ease-in-out;
   &:hover {
-    color: ${variaveis.verde};
+    color: ${colors.green};
   }
   @media (max-width: 768px) {
     font-size: 20px;
@@ -74,7 +74,7 @@ export const Header_Title = styled(animated.h1)`
 export const MenuIcon = styled.div`
   cursor: pointer;
   display: none;
-  color: ${variaveis.branco};
+  color: ${colors.white};
   font-size: 25px;
   @media (max-width: 768px) {
     display: block;

@@ -1,11 +1,10 @@
 import styled, { css } from 'styled-components'
 import * as K from '../../styles/keyframes'
-import variaveis from '../../styles/variaveis'
+import { colors } from '../../styles/styles'
 
 export const Introducao = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0 86px;
   width: 100%;
   flex-wrap: wrap;
 
@@ -39,7 +38,7 @@ export const ImageProfile = styled.div`
   }
 `
 export const CorDestaque = styled.b`
-  color: ${variaveis.verde};
+  color: ${colors.green};
 `
 
 export const Curriculo__text = styled.p`
@@ -47,7 +46,7 @@ export const Curriculo__text = styled.p`
 `
 //--------------TIME LINE
 export const TimeLine = styled.section`
-  background-color: ${variaveis.verde};
+  background-color: ${colors.green};
   display: grid;
   grid-template-columns: 1fr 1fr auto;
   grid-template-rows: auto auto;
@@ -98,7 +97,7 @@ const TimeLine__Content = css`
 
   ul {
     h5 {
-      color: ${variaveis.preto};
+      color: ${colors.black};
       font-weight: normal;
       font-size: 18px;
     }
@@ -145,10 +144,8 @@ export const TimeLine__element = styled.div`
     display: none;
   }
 `
-//-----------------
+//-----------------skills
 export const Skills = styled.section`
-  padding: 0 143px;
-
   @media (max-width: 768px) {
     padding: 0 50px;
     align-items: center;
@@ -159,7 +156,7 @@ export const Skills__title = styled.h3`
   margin: 42px 0;
   background: linear-gradient(
     180deg,
-    ${variaveis.verde} 30%,
+    ${colors.green} 30%,
     rgba(0, 0, 0, 0) 100%
   );
   background-clip: text;
@@ -181,7 +178,7 @@ export const Skills__item = styled.div`
   }
 
   h4 {
-    font-family: ${variaveis.segundaFonte};
+    font-family: 'Waiting for the Sunrise', cursive;
     font-size: 25px;
     margin-bottom: 10px;
   }

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import variaveis from '../../styles/variaveis'
+import { colors } from '../../styles/styles'
 
 export const Container_AboutMe = styled.div`
-  background-color: ${variaveis.preto};
+  background-color: ${colors.black};
   width: 100%;
-  color: ${variaveis.branco};
+  color: ${colors.white};
 `

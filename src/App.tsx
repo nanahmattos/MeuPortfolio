@@ -1,15 +1,16 @@
-import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Works from './pages/Works'
+
+import Projects from './pages/Projects'
 import Sobre from './pages/Sobre'
-import EstiloGlobal from './styles'
 import Home from './containers/Home'
 import Footer from './containers/Footer'
+
+import EstiloGlobal from './styles/styles'
 
 const rotas = createBrowserRouter([
   {
     path: '/',
-    element: <Works />
+    element: <Projects />
   },
   {
     path: '/cv',

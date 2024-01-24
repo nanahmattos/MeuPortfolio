@@ -1,7 +1,9 @@
 import { useSpring } from '@react-spring/core'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import variaveis from '../../styles/variaveis'
+
+import { colors } from '../../styles/styles'
+
 import * as S from './styles'
 
 const Header = () => {
@@ -54,9 +56,9 @@ const Header = () => {
       </S.Header_Title>
       <S.MenuIcon onClick={toggleMenu}>
         <svg width="35" height="10" fill="none">
-          <circle cx="4.5" cy="4.5" r="4.5" fill={variaveis.verde} />
-          <circle cx="16.5" cy="4.5" r="4.5" fill={variaveis.verde} />
-          <circle cx="28.5" cy="4.5" r="4.5" fill={variaveis.verde} />
+          <circle cx="4.5" cy="4.5" r="4.5" fill={colors.green} />
+          <circle cx="16.5" cy="4.5" r="4.5" fill={colors.green} />
+          <circle cx="28.5" cy="4.5" r="4.5" fill={colors.green} />
         </svg>
       </S.MenuIcon>
       <S.WorksLinks open={open}>

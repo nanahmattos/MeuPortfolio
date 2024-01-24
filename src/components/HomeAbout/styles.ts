@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import variaveis from '../../styles/variaveis'
+import { colors } from '../../styles/styles'
 
 export const HomeAbout = styled.section`
   display: grid;
@@ -14,7 +14,7 @@ export const HomeAbout = styled.section`
   }
 `
 export const HomeAbout__title = styled.h1`
-  color: ${variaveis.branco};
+  color: ${colors.white};
   font-size: 65px;
   @media (max-width: 768px) {
     font-size: 35px;
@@ -22,9 +22,9 @@ export const HomeAbout__title = styled.h1`
   }
 `
 export const HomeAbout__text = styled.p`
-  color: ${variaveis.branco};
+  color: ${colors.white};
   font-size: 25px;
-  color: ${variaveis.verde};
+  color: ${colors.green};
   margin-bottom: 10px;
 `
 export const HomeAbout__icons = styled.ul`
@@ -32,17 +32,17 @@ export const HomeAbout__icons = styled.ul`
   padding: 0;
   align-items: flex-start;
   margin-bottom: 50px;
-
+  width: 100%;
   li {
     margin-right: 10px;
   }
-
   img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     cursor: pointer;
   }
+
   a {
     cursor: pointer;
   }

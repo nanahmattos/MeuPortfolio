@@ -1,12 +1,14 @@
-import Linkedin from '../../assets/icons/Linkedin.svg'
-import Github from '../../assets/icons/Github.svg'
-import Behance from '../../assets/icons/Behance.svg'
-import * as S from './styles'
+import linkedin from '../../assets/icons/Linkedin.svg'
+import github from '../../assets/icons/Github.svg'
+import behance from '../../assets/icons/Behance.svg'
+import instagram from '../../assets/icons/Instagram.svg'
 import GifHome from '../../assets/gif_home.gif'
+
+import * as S from './styles'
 const About = () => {
   return (
     <>
-      <S.HomeAbout>
+      <S.HomeAbout className="container">
         <div>
           <S.HomeAbout__title>Carolina Mattos</S.HomeAbout__title>
           <S.HomeAbout__text>
@@ -19,7 +21,7 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Linkedin} alt="icone do linkedin" />
+                <img src={linkedin} alt="icone do Linkedin" />
               </a>
             </li>
             <li>
@@ -28,7 +30,16 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Github} alt="icone do github" />
+                <img src={github} alt="icone do Github" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/nanahmattos_"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={instagram} alt="icone do Instagram" />
               </a>
             </li>
             <li>
@@ -37,7 +48,7 @@ const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Behance} alt="icone do behance" />
+                <img src={behance} alt="icone do Behance" />
               </a>
             </li>
           </S.HomeAbout__icons>

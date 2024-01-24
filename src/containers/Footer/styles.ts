@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import variaveis from '../../styles/variaveis'
+import { colors } from '../../styles/styles'
 
 export const Contato = styled.section`
   display: block;
@@ -7,12 +7,12 @@ export const Contato = styled.section`
 `
 export const Contato_title = styled.h3`
   font-size: 25px;
-  color: ${variaveis.verde};
+  color: ${colors.green};
 `
 export const Footer = styled.footer`
-  background-color: ${variaveis.preto};
+  background-color: ${colors.black};
   display: block;
   text-align: center;
   padding: 5vh;
-  color: ${variaveis.branco};
+  color: ${colors.white};
 `
