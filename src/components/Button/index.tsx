@@ -5,7 +5,6 @@ export type ButtonProps = {
   children: JSX.Element
   to: string
 }
-
 const Button = ({ children, type, to }: ButtonProps) => {
   return (
     <S.Button

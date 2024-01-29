@@ -62,6 +62,12 @@ const Curriculo = () => {
               <p>2022 - 2023</p>
             </li>
             <li>
+              <h5>Auxiliar Administrativo</h5>
+              <p>C.A.M (Centro Automotivo)</p>
+              <p>2020 - 2022</p>
+            </li>
+            <li></li>
+            <li>
               <h5>Social Media</h5>
               <p>CYD Side</p>
               <p>2019 - 2020</p>
@@ -69,11 +75,6 @@ const Curriculo = () => {
             <li>
               <h5>Visual Mershandising</h5>
               <p>Groovy Forever</p>
-              <p>2017</p>
-            </li>
-            <li>
-              <h5>Atendente e Visual Merchandising</h5>
-              <p>Lojas Riachuelo</p>
               <p>2017</p>
             </li>
           </ul>
