@@ -83,6 +83,7 @@ const TimeLine__Content = css`
   @media (max-width: 768px) {
     padding: 0 50px;
     align-items: center;
+    justify-content: start;
   }
 
   img {

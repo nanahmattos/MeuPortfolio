@@ -14,10 +14,10 @@ const Curriculo = () => {
         <div>
           <h4>Olá ! sou Carolina,</h4>
           <p>
-            profissional apaixonada por design e criatividade. Minha jornada
-            começou em Design de Moda, e ao longo do tempo, explorei áreas como
-            Social Media e Direção de Arte. Hoje, me realizo como{' '}
-            <S.CorDestaque>Desenvolvedora Front-end</S.CorDestaque>.
+            Profissional apaixonada por design e criatividade, minha jornada
+            teve início em Design de Moda. Ao longo do tempo, explorei áreas
+            como Social Media e Direção de Arte. Hoje, me realizo como{' '}
+            <S.CorDestaque>Desenvolvedora Front-end.</S.CorDestaque>
           </p>
         </div>
       </S.Introducao>
@@ -152,6 +152,27 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
+              <S.Curriculo__text>Vue.js</S.Curriculo__text>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="117"
+                height="9"
+                viewBox="0 0 117 9"
+                fill="none"
+              >
+                <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
+              </svg>
+            </S.Skills__lista>
+            <S.Skills__lista>
               <S.Curriculo__text>React</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +190,7 @@ const Curriculo = () => {
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="112.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
@@ -187,8 +208,8 @@ const Curriculo = () => {
                 <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
               </svg>
@@ -232,7 +253,7 @@ const Curriculo = () => {
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="112.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
@@ -323,6 +344,27 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
+              <S.Curriculo__text>HitFilm</S.Curriculo__text>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="117"
+                height="9"
+                viewBox="0 0 117 9"
+                fill="none"
+              >
+                <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
+              </svg>
+            </S.Skills__lista>
+            <S.Skills__lista>
               <S.Curriculo__text>Figma</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -359,8 +401,8 @@ const Curriculo = () => {
                 <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="52.5" cy="4.5" r="4.5" fill="##48D97A" />
-                <circle cx="64.5" cy="4.5" r="4.5" fill="##48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
@@ -402,7 +444,7 @@ const Curriculo = () => {
                 <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="64.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
