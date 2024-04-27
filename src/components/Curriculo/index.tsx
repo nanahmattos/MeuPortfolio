@@ -14,9 +14,9 @@ const Curriculo = () => {
         <div>
           <h4>Olá ! sou Carolina,</h4>
           <p>
-            Profissional apaixonada por design e criatividade, minha jornada
-            teve início em Design de Moda. Ao longo do tempo, explorei áreas
-            como Social Media e Direção de Arte. Hoje, me realizo como{' '}
+            Profissional apaixonada pelo desenvolvimento de projetos, minha
+            jornada teve início em Design de Moda. Ao longo do tempo, explorei
+            áreas como Social Media e Direção de Arte. Hoje, me realizo como{' '}
             <S.CorDestaque>Desenvolvedora Front-end.</S.CorDestaque>
           </p>
         </div>
@@ -57,6 +57,11 @@ const Curriculo = () => {
           <img src={Timeline} alt="linha do tempo" />
           <ul>
             <li>
+              <h5>Programadora de Software</h5>
+              <p>Pedro Software</p>
+              <p>2024 - no momento</p>
+            </li>
+            <li>
               <h5>Direção de Arte</h5>
               <p>TK7 Marketing</p>
               <p>2022 - 2023</p>
@@ -66,16 +71,10 @@ const Curriculo = () => {
               <p>C.A.M (Centro Automotivo)</p>
               <p>2020 - 2022</p>
             </li>
-            <li></li>
             <li>
               <h5>Social Media</h5>
               <p>CYD Side</p>
               <p>2019 - 2020</p>
-            </li>
-            <li>
-              <h5>Visual Mershandising</h5>
-              <p>Groovy Forever</p>
-              <p>2017</p>
             </li>
           </ul>
         </S.Experiencia>
@@ -145,8 +144,8 @@ const Curriculo = () => {
                 <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
               </svg>
@@ -168,8 +167,8 @@ const Curriculo = () => {
                 <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#48D97A" />
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
@@ -194,7 +193,7 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
-              <S.Curriculo__text>Git</S.Curriculo__text>
+              <S.Curriculo__text>API Rest</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -228,7 +227,7 @@ const Curriculo = () => {
                 <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
@@ -273,8 +272,8 @@ const Curriculo = () => {
                 <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
-                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#48D97A" />
               </svg>
             </S.Skills__lista>
           </ul>
@@ -389,7 +388,7 @@ const Curriculo = () => {
           <ul>
             <h4>Estou estudando</h4>
             <S.Skills__lista>
-              <S.Curriculo__text>Redux</S.Curriculo__text>
+              <S.Curriculo__text>React Native</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -400,9 +399,9 @@ const Curriculo = () => {
                 <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
@@ -410,7 +409,7 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
-              <S.Curriculo__text>Phyton</S.Curriculo__text>
+              <S.Curriculo__text>AWS</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -431,7 +430,7 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
-              <S.Curriculo__text>Angular</S.Curriculo__text>
+              <S.Curriculo__text>SQL</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -441,10 +440,10 @@ const Curriculo = () => {
               >
                 <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
                 <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
-                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
                 <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
