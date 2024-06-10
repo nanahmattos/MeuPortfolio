@@ -14,9 +14,9 @@ const Curriculo = () => {
         <div>
           <h4>Olá ! sou Carolina,</h4>
           <p>
-            Profissional apaixonada pelo desenvolvimento de projetos, minha
-            jornada teve início em Design de Moda. Ao longo do tempo, explorei
-            áreas como Social Media e Direção de Arte. Hoje, me realizo como{' '}
+            Profissional apaixonada pelo desenvolvimento de projetos. Explorei
+            áreas como Design de Moda, Social Media e Direção de Arte. Hoje, me
+            realizo como{' '}
             <S.CorDestaque>Desenvolvedora Front-end.</S.CorDestaque>
           </p>
         </div>
@@ -57,8 +57,8 @@ const Curriculo = () => {
           <img src={Timeline} alt="linha do tempo" />
           <ul>
             <li>
-              <h5>Programadora de Software</h5>
-              <p>Pedro Software</p>
+              <h5>Desenvolvedora de Sistemas</h5>
+              <p>PedroSoft</p>
               <p>2024 - no momento</p>
             </li>
             <li>
@@ -88,7 +88,7 @@ const Curriculo = () => {
           <ul>
             <h4>Program Tools</h4>
             <S.Skills__lista>
-              <S.Curriculo__text>HTML</S.Curriculo__text>
+              <S.Curriculo__text>HTML5</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -109,7 +109,7 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
-              <S.Curriculo__text>CSS</S.Curriculo__text>
+              <S.Curriculo__text>CSS3</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -131,6 +131,27 @@ const Curriculo = () => {
             </S.Skills__lista>
             <S.Skills__lista>
               <S.Curriculo__text>JavaScript</S.Curriculo__text>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="117"
+                height="9"
+                viewBox="0 0 117 9"
+                fill="none"
+              >
+                <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
+              </svg>
+            </S.Skills__lista>
+            <S.Skills__lista>
+              <S.Curriculo__text>TypeScript</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -193,6 +214,27 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
+              <S.Curriculo__text>Angular</S.Curriculo__text>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="117"
+                height="9"
+                viewBox="0 0 117 9"
+                fill="none"
+              >
+                <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#fff" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#fff" />
+              </svg>
+            </S.Skills__lista>
+            <S.Skills__lista>
               <S.Curriculo__text>API Rest</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -235,7 +277,7 @@ const Curriculo = () => {
               </svg>
             </S.Skills__lista>
             <S.Skills__lista>
-              <S.Curriculo__text>BootStrap</S.Curriculo__text>
+              <S.Curriculo__text>Git e Github</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
@@ -257,6 +299,48 @@ const Curriculo = () => {
             </S.Skills__lista>
             <S.Skills__lista>
               <S.Curriculo__text>SASS</S.Curriculo__text>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="117"
+                height="9"
+                viewBox="0 0 117 9"
+                fill="none"
+              >
+                <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#48D97A" />
+              </svg>
+            </S.Skills__lista>
+            <S.Skills__lista>
+              <S.Curriculo__text>StyledComp.</S.Curriculo__text>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="117"
+                height="9"
+                viewBox="0 0 117 9"
+                fill="none"
+              >
+                <circle cx="4.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="16.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="28.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="40.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="52.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="64.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="76.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="88.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="100.5" cy="4.5" r="4.5" fill="#48D97A" />
+                <circle cx="112.5" cy="4.5" r="4.5" fill="#48D97A" />
+              </svg>
+            </S.Skills__lista>
+            <S.Skills__lista>
+              <S.Curriculo__text>Pinia/Vuex</S.Curriculo__text>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="117"
