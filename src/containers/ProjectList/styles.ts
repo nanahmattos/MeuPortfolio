@@ -3,12 +3,12 @@ import vector from '../../assets/background/VectorCabecalho.svg'
 import { colors } from '../../styles/styles'
 
 export const Container = styled.div`
-  background-image: url(${vector});
+  // background-image: url(${vector});
   background-color: ${colors.greenlight};
   background-size: contain;
   background-repeat: no-repeat;
   > h2 {
-    padding: 120px 0 40px;
+    padding: 20px;
     font-size: 42px;
     text-align: center;
   }

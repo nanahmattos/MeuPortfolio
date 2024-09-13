@@ -57,7 +57,7 @@ const Curriculo = () => {
           <img src={Timeline} alt="linha do tempo" />
           <ul>
             <li>
-              <h5>Desenvolvedora de Sistemas</h5>
+              <h5>Desenvolvedora Front-end</h5>
               <p>PedroSoft</p>
               <p>2024 - no momento</p>
             </li>
